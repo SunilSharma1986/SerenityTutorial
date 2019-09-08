@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="com.studentapp.junit.studentsinfo.FirstSerenityTest" skipped="2" tests="5" time="4.57" timestamp="2019-08-31 12:01:42"><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="Get all student"/><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="Get all student fail scenario"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentsinfo.FirstSerenityTest.getAllStudentFailScenario(FirstSerenityTest.java:44)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="Get all student ERROR"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero&#13;
+com.studentapp.junit.studentsinfo.FirstSerenityTest.getAllStudentERROR(FirstSerenityTest.java:62)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="Get all student ignore"><skipped/></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="Get all student pending"><skipped/></testcase></testsuite>

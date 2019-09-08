@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"First serenity test","Get all student","SUCCESS","2019-08-31T00:01:42.897+05:30[Asia/Calcutta]","0.0","4.41"
+"First serenity test","Get all student fail scenario","FAILURE","2019-08-31T00:01:47.415+05:30[Asia/Calcutta]","0.0","0.15"
+"First serenity test","Get all student ERROR","ERROR","2019-08-31T00:01:47.57+05:30[Asia/Calcutta]","0.0","0.01"
+"First serenity test","Get all student ignore","IGNORED","2019-08-31T00:01:47.584+05:30[Asia/Calcutta]","0.0","0.0"
+"First serenity test","Get all student pending","PENDING","2019-08-31T00:01:47.59+05:30[Asia/Calcutta]","0.0","0.0"
